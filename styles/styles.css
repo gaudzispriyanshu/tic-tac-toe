@@ -1,0 +1,54 @@
+:root
+{
+    --dark: rgb(98, 4, 35);
+    --light: rgb(243, 136, 172);
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 231, 247) ;
+}
+
+
+#main-header
+{
+    background-color: var(--light);
+    /* color: ; */
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn 
+{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--light);
+    border: 1px solid ;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt
+{
+    background-color: white;
+    border-color: transparent;
+    color: var(--dark);
+}
+
+
+.btn:hover
+{
+    background-color: white;
+    border-color: var(--light);
+}
+
+.btn-alt:hover
+{
+    color: white;
+    background-color: var(--light);
+    border-color: rgb(0, 0, 0);
+}
