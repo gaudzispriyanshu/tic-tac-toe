@@ -5,6 +5,8 @@ A simple tic tac toe web app, to illustrate the use of various Javascript functi
 
 Feel free to contribute with improvements and features. Your PRs will be evaluated.
 
+site = https://gaudzispriyanshu.github.io/tic-tac-toe/
+
 Cheers!
 
 Priyanshu
